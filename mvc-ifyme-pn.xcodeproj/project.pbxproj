@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8F78F452242C54B000210B1 /* AppleProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F78F442242C54B000210B1 /* AppleProduct.swift */; };
+		A8F78F472242C6E0000210B1 /* CustomPrettyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F78F462242C6E0000210B1 /* CustomPrettyView.swift */; };
 		AF328E22224206AC0010CDD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF328E21224206AC0010CDD7 /* AppDelegate.swift */; };
 		AF328E24224206AC0010CDD7 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF328E23224206AC0010CDD7 /* Controller.swift */; };
 		AF328E27224206AC0010CDD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF328E25224206AC0010CDD7 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A8F78F442242C54B000210B1 /* AppleProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProduct.swift; sourceTree = SOURCE_ROOT; };
+		A8F78F462242C6E0000210B1 /* CustomPrettyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPrettyView.swift; sourceTree = SOURCE_ROOT; };
 		AF328E1E224206AC0010CDD7 /* mvc-ifyme-pn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mvc-ifyme-pn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF328E21224206AC0010CDD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF328E23224206AC0010CDD7 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
@@ -77,6 +81,7 @@
 		AF328E34224207420010CDD7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A8F78F462242C6E0000210B1 /* CustomPrettyView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -84,6 +89,7 @@
 		AF328E352242074D0010CDD7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A8F78F442242C54B000210B1 /* AppleProduct.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -159,8 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8F78F452242C54B000210B1 /* AppleProduct.swift in Sources */,
 				AF328E24224206AC0010CDD7 /* Controller.swift in Sources */,
 				AF328E22224206AC0010CDD7 /* AppDelegate.swift in Sources */,
+				A8F78F472242C6E0000210B1 /* CustomPrettyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
