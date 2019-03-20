@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AF328E22224206AC0010CDD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF328E21224206AC0010CDD7 /* AppDelegate.swift */; };
-		AF328E24224206AC0010CDD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF328E23224206AC0010CDD7 /* ViewController.swift */; };
+		AF328E24224206AC0010CDD7 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF328E23224206AC0010CDD7 /* Controller.swift */; };
 		AF328E27224206AC0010CDD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF328E25224206AC0010CDD7 /* Main.storyboard */; };
 		AF328E29224206AF0010CDD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF328E28224206AF0010CDD7 /* Assets.xcassets */; };
 		AF328E2C224206AF0010CDD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF328E2A224206AF0010CDD7 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		AF328E1E224206AC0010CDD7 /* mvc-ifyme-pn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mvc-ifyme-pn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF328E21224206AC0010CDD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF328E23224206AC0010CDD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF328E23224206AC0010CDD7 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 		AF328E26224206AC0010CDD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF328E28224206AF0010CDD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF328E2B224206AF0010CDD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +54,38 @@
 		AF328E20224206AC0010CDD7 /* mvc-ifyme-pn */ = {
 			isa = PBXGroup;
 			children = (
+				AF328E352242074D0010CDD7 /* Model */,
+				AF328E34224207420010CDD7 /* View */,
+				AF328E33224207290010CDD7 /* Controller */,
 				AF328E21224206AC0010CDD7 /* AppDelegate.swift */,
-				AF328E23224206AC0010CDD7 /* ViewController.swift */,
 				AF328E25224206AC0010CDD7 /* Main.storyboard */,
 				AF328E28224206AF0010CDD7 /* Assets.xcassets */,
 				AF328E2A224206AF0010CDD7 /* LaunchScreen.storyboard */,
 				AF328E2D224206AF0010CDD7 /* Info.plist */,
 			);
 			path = "mvc-ifyme-pn";
+			sourceTree = "<group>";
+		};
+		AF328E33224207290010CDD7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF328E23224206AC0010CDD7 /* Controller.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AF328E34224207420010CDD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF328E352242074D0010CDD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF328E24224206AC0010CDD7 /* ViewController.swift in Sources */,
+				AF328E24224206AC0010CDD7 /* Controller.swift in Sources */,
 				AF328E22224206AC0010CDD7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
